@@ -25,7 +25,7 @@ const Navbar: FC = () => {
             onMouseEnter={toggleIsMouseOverNavbar}
         >
             <div
-                className={clsx("flex h-full w-max flex-col justify-center gap-4 px-6")}
+                className={clsx("flex h-full w-max flex-col justify-center gap-4 bg-black/75 px-6")}
                 onMouseLeave={toggleIsMouseOverNavbar}
             >
                 <NavLink icon="search.png" href="/search" isExpanded={isMouseOverNavbar}>
