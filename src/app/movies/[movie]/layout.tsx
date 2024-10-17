@@ -25,7 +25,7 @@ export const generateMetadata = async ({ params }: IMovieProps): Promise<Metadat
             title: movie.Title,
             description: movie.Description,
         };
-    } catch (e) {
+    } catch {
         return { title: "TV Show", description: "Lorem ipsum :(" };
     }
 };
